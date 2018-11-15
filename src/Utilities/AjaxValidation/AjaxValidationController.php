@@ -2,12 +2,13 @@
 
 namespace Webflorist\FormFactory\Utilities\AjaxValidation;
 
-use App\Http\Controllers\Controller;
+use Illuminate\Routing\Controller;
 use Illuminate\Http\JsonResponse;
 use Webflorist\FormFactory\Exceptions\MandatoryOptionMissingException;
 use Webflorist\FormFactory\Utilities\AntiBotProtection\CaptchaProtection;
 use Webflorist\FormFactory\Utilities\FormFactoryTools;
 use Validator;
+
 
 class AjaxValidationController extends Controller
 {
