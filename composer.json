@@ -9,8 +9,8 @@
     ],
     "require": {
         "laravel/framework": ">=5.5",
-        "webflorist/htmlfactory": "1.1.*",
-        "webflorist/vuefactory": "1.0.*"
+        "webflorist/htmlfactory": "dev-master",
+        "webflorist/vuefactory": "dev-master"
     },
     "require-dev": {
         "orchestra/testbench": "3.5.*",
